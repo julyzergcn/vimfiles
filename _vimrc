@@ -26,6 +26,12 @@ syntax on
 let g:pymode_lint = 1
 let g:pymode_folding = 0
 
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>
+
+" NERDTree tabs
+map <Leader>n <plug>NERDTreeTabsToggle<CR>
+
 """""""""""""""""""""""""""'
 
 set diffexpr=MyDiff()
