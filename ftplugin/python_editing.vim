@@ -11,6 +11,11 @@ set foldmethod=expr
 set foldexpr=PythonFoldExpr(v:lnum)
 set foldtext=PythonFoldText()
 
+" my custom
+set foldmethod=indent
+set foldcolumn=3
+set foldnestmax=2
+
 map <buffer> f za
 map <buffer> F :call ToggleFold()<CR>
 let b:folded = 1
@@ -59,7 +64,7 @@ function! PythonFoldExpr(lnum)
     if getline(a:lnum-1) =~ '^\(class\|def\)\s'
         return 1
     endif
-        
+
     if getline(a:lnum) =~ '^\s*$'
         return "="
     endif
