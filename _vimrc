@@ -31,6 +31,7 @@ map <C-n> :NERDTreeToggle<CR>
 
 " NERDTree tabs
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
+let g:nerdtree_tabs_open_on_gui_startup = 0
 
 """""""""""""""""""""""""""'
 
