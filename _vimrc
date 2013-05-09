@@ -22,6 +22,10 @@ call pathogen#helptags()
 filetype plugin indent on
 syntax on
 
+" Custom pyton-mode
+let g:pymode_lint = 1
+let g:pymode_folding = 0
+
 """""""""""""""""""""""""""'
 
 set diffexpr=MyDiff()
