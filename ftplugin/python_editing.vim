@@ -12,11 +12,11 @@ set foldexpr=PythonFoldExpr(v:lnum)
 set foldtext=PythonFoldText()
 
 " my custom
-set foldmethod=indent
-set foldcolumn=3
-set foldnestmax=2
+" set foldmethod=indent
+" set foldcolumn=3
+" set foldnestmax=2
 
-map <buffer> f za
+" map <buffer> f za
 map <buffer> F :call ToggleFold()<CR>
 let b:folded = 1
 
