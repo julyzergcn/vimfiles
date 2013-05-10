@@ -19,3 +19,6 @@
 [submodule "bundle/nerdtree-tabs"]
 	path = bundle/nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "bundle/MiniBufExplorer"]
+	path = bundle/MiniBufExplorer
+	url = https://github.com/fholgado/minibufexpl.vim.git
